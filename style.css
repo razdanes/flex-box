@@ -1,0 +1,32 @@
+body
+{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.box
+{
+    width: 1000px;
+    height: 500px;
+    border: 10px double  lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.square
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+}
+
+.wheel
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
